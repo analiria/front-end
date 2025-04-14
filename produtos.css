@@ -12,7 +12,7 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-]
+}
 .caixa{
     position: relative;
     width: 940px;
@@ -22,4 +22,25 @@ nav{
     position: absolute;
     top: 10px;
     ringht:0;
+}
+.produtos{
+    width: 940;
+    margin: 0 auto;
+    padding: 50px;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight:bold ;
+}
+.produto-descriçao{
+    font-size: 18px;
 }
